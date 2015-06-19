@@ -2,18 +2,18 @@
 //
 
 #include "stdafx.h"
-#include "helloworld.h"
+//#include "helloworld.h"
 
-void helloworld(void)
+void helloworld()
 {
 	printf("hello wrold!");
-}
+	return 0;
 }
 
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//printf("Hello,World!\n");
-	hellowrold();
+	helloworld();
 	int a=0;
 	float b=3.141592653;
 	printf("a+b=%f",a+b);
