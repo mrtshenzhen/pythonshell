@@ -2,10 +2,14 @@
 //
 
 #include "stdafx.h"
+#include "helloworld.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
 	printf("Hello,World!\n");
+	int a=0;
+	float b=3.141592653;
+	printf("a+b=%f",a+b);
 	getchar();
 	return 0;
 }
