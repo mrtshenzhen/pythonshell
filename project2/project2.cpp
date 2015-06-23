@@ -4,10 +4,10 @@
 #include "stdafx.h"
 //#include "helloworld.h"
 
-void helloworld()
+int helloworld()
 {
 	printf("hello wrold!");
-//	return 0;
+	return 0;
 }
 
 int _tmain(int argc, _TCHAR* argv[])
